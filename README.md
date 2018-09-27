@@ -1,2 +1,2 @@
-# personal-webpage
-My first personal webpage.
+# prabhathc.github.io
+My first personal webpage!
