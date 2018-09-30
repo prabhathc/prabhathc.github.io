@@ -17,8 +17,9 @@ span {
     /* border: 2px dashed #f69c55; */
 }
 
-div.enterName {
-    animation-duration: 5s;
+div.addSides {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .newFont {
@@ -43,7 +44,16 @@ div.enterName {
     line-height: normal;
 }
 
+.customPadding {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
 .hvr-forward {
+    /* border: 2px dashed #f69c55; */
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 27px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -61,9 +71,7 @@ div.enterName {
 }
 
 body {
-        background-color: #89B2A4;
-        margins: 0;
-        padding: 0;
+    background-color: #89B2A4;
 }
 
 .newFontSmaller:hover {
