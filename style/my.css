@@ -53,7 +53,6 @@ div.addSides {
     /* border: 2px dashed #f69c55; */
     padding-left: 13px;
     padding-right: 13px;
-    border-radius: 27px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
