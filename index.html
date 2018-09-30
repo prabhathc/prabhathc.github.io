@@ -11,7 +11,7 @@
             <span class="type newFont fadeIn"></span>
         </div>
         <script type="text/javascript" src="js/typed.js"></script>
-        <script type="text/javascript" src="js/my.js"></script>
+        <script type="text/javascript" src="js/clipboard.js"></script>
         <script type="text/javascript">
             var typed = new Typed(".type", {
                 strings: ["^500 Prabhath Chandanala"],
@@ -24,15 +24,13 @@
                 autoInsertCss: true
             });
         </script>
-        <br>
         <div class="box">
             <a href="files/Resume.pdf" download="resume">
                 <div class="enterName newFontSmaller animated fadeIn hvr-forward">
-                    Resumé
+                    Résumé
                 </div>
             </a>
         </div>
-        <br>
         <div class="box">
             <a href="https://github.com/prabhathc">
                 <div class="enterName newFontSmaller animated fadeIn hvr-forward">
@@ -40,13 +38,23 @@
                 </div>
             </a>
         </div>
-        <br>
         <div class="box">
             <a href="https://linkedin.com/in/prabhathchandanala">
                 <div class="enterName newFontSmaller animated fadeIn hvr-forward">
                     Linkedin
                 </div>
             </a>
+        </div>
+        <div class="box">
+            <div class="enterName newFontSmaller animated fadeIn hvr-forward copy" onclick="copy()" data-clipboard-text="prabhathc88@gmail.com">
+                Contact
+            </div>
+            <script type="text/javascript">
+                function copy() {
+                    new ClipboardJS('.copy');
+                    alert("Copied email to clipboard!");
+                }
+            </script>
         </div>
     </body>
 </html>
