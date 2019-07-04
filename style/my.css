@@ -34,7 +34,8 @@ div.addSides {
     color: white;
     font-size: 80px;
     letter-spacing: 0px;
-    background-color: #89B2A4;
+    /* background-color: #89B2A4; */
+    background-color: #97A7F2;
     transition: background-color 1s ease;
 }
 
@@ -70,11 +71,13 @@ div.addSides {
 }
 
 body {
-    background-color: #89B2A4;
+    /* background-color: #89B2A4; */
+    background-color: #97A7F2;
 }
 
 .newFontSmaller:hover {
-    background-color: #5F9783;
+    /* background-color: #5F9783; */
+    background-color: rgb(115, 137, 238);
 }
 
 .typed-cursor{
